@@ -1,0 +1,89 @@
+/* CSS */
+.body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFFFFF; /* Warna latar belakang putih */
+    color: #333333; /* Warna teks yang lebih kontras dengan latar belakang */
+    height: 100vh; /* Set tinggi body menjadi tinggi viewport */
+}
+
+.navbar-brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .brand-text {
+    margin-left: 10px;
+}
+
+.container {
+    padding: 50px;
+    background-color: transparent; /* Ubah background menjadi transparan */
+    border-radius: 10px;
+}
+
+h1, .subtitle {
+    font-family: Arial, sans-serif; /* Mengubah font menjadi Arial atau sans-serif */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color: #333333; /* Warna teks yang lebih kontras dengan latar belakang */
+    font-weight: bold; /* Membuat teks "Try Lab" menjadi tebal */
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #666666; /* Warna teks yang lebih kontras dengan latar belakang */
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column; /* Mengatur tata letak menjadi vertikal */
+}
+
+.card {
+    background-color: #FFFFFF; /* Warna latar belakang kartu putih */
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-bottom: 20px; /* Jarak antara kartu */
+    max-width: 100%; /* Kartu akan mengisi lebar maksimum kontainer */
+    transition: background-color 0.3s ease; /* Transisi warna latar belakang */
+    pointer-events: auto; /* Mengaktifkan event pointer pada kartu */
+}
+
+.card:hover {
+    background-color: #E0E0E0; /* Ubah warna latar belakang menjadi abu-abu saat cursor menyentuh */
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin: 0;
+    color: #333333; /* Warna teks yang lebih kontras dengan latar belakang */
+    font-weight: bold; /* Membuat teks judul kartu menjadi tebal */
+}
+
+.card-text {
+    color: #666666; /* Warna teks yang lebih kontras dengan latar belakang */
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.vulnerability {
+    font-weight: bold; /* Membuat teks "vulnerability" menjadi tebal */
+}
+
+.card-title a {
+    color: #333333; /* Warna teks yang lebih kontras dengan latar belakang */
+    text-decoration: none;
+}
+
+.card-title a:hover {
+    color: #17a2b8;
+}
